@@ -7,3 +7,9 @@ window.onscroll = function() {
         header.classList.remove("active")
     }
 }
+
+let links = document.getElementById('links');
+
+function Open_Menu() {
+    links.classList.toggle("active")
+}
